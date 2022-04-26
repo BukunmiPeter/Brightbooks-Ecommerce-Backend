@@ -4,7 +4,7 @@
   "description": "",
   "main": "noodemon app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
     "heroku-postbuild": "npm install --only=dev && npm install && npm run build"
   },
   "engines": {
