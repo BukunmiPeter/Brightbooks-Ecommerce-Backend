@@ -2,7 +2,7 @@
   "name": "ecommerce",
   "version": "1.0.0",
   "description": "",
-  "main": "noodemon app.js",
+  "main": "nodemon app.js",
   "scripts": {
     "start": "nodemon app.js",
     "heroku-postbuild": "npm install --only=dev && npm install && npm run build"
