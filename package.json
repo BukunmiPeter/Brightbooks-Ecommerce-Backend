@@ -2,9 +2,13 @@
   "name": "ecommerce",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "noodemon app.js",
   "scripts": {
     "start": "nodemon app.js"
+    "heroku-postbuild": "npm install --only=dev && npm install && npm run build"
+  },
+  "engines": {
+    "node": "16.13.2"
   },
   "keywords": [],
   "author": "",
